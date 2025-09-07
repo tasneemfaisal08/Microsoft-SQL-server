@@ -45,7 +45,7 @@ In a database, tables are often related to each other through keys and relations
 - **Definition**: A foreign key is a column or a set of columns in one table that refers to the primary key in another table. It establishes a link between the two tables.
 - **Example**: In an "Invoice" table, the CustomerID column might be a foreign key referencing the CustomerID column in the "Customer" table.
 
-2. **One-to-One Relationship:
+2. **One-to-One Relationship**:
 - **Definition**: A row in one table is associated with exactly one row in another table, and vice versa.
 - **Example**: Each person has one passport, and each passport belongs to only one person, creating a one-to-one relationship between the Person table and the Passport table.
 
