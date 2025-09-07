@@ -37,7 +37,8 @@ A database table consists of several elements that define how data is stored and
 - **Definition**: Constraints are rules applied to columns to enforce data integrity and consistency. Common constraints include NOT NULL, UNIQUE, CHECK, and FOREIGN KEY.
 - **Example**:The Email column might have a UNIQUE constraint to ensure that no two customers have the same email address.
 
-#Understanding Table Relationships:
+# Understanding Table Relationships:
+
 In a database, tables are often related to each other through keys and relationships. These relationships help maintain data integrity and support complex queries.
 
 1. **Foreign Key**:
