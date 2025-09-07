@@ -16,6 +16,7 @@ Imagine a library full of books. Each book contains a title, an author, and chap
 # Understanding Table Structures in Databases
 ### Components of a Database Table :
 A database table consists of several elements that define how data is stored and accessed. Here are the primary components:
+
 1.**Columns**:
 - **Definition**: Columns, also known as fields, represent the attributes of the data stored in the table. Each column has a specific data type that defines the kind of data it                            can hold, such as integers, strings, dates, or binary data.
 - **Example**: A "Customer" table includes columns for CustomerID, FirstName, LastName, Email, and DateOfBirth.
