@@ -37,3 +37,22 @@ A database table consists of several elements that define how data is stored and
 - **Definition**: Constraints are rules applied to columns to enforce data integrity and consistency. Common constraints include NOT NULL, UNIQUE, CHECK, and FOREIGN KEY.
 - **Example**:The Email column might have a UNIQUE constraint to ensure that no two customers have the same email address.
 
+#Understanding Table Relationships:
+In a database, tables are often related to each other through keys and relationships. These relationships help maintain data integrity and support complex queries.
+
+1. **Foreign Key**:
+- **Definition**: A foreign key is a column or a set of columns in one table that refers to the primary key in another table. It establishes a link between the two tables.
+- **Example**: In an "Invoice" table, the CustomerID column might be a foreign key referencing the CustomerID column in the "Customer" table.
+
+2. **One-to-One Relationship:
+- **Definition**: A row in one table is associated with exactly one row in another table, and vice versa.
+- **Example**: Each person has one passport, and each passport belongs to only one person, creating a one-to-one relationship between the Person table and the Passport table.
+
+3. **One-to-Many Relationship**:
+- **Definition**: A row in one table can be associated with multiple rows in another in a one-to-many relationship.
+- **Example**: A customer can place multiple orders, creating a one-to-many relationship between the "Customer" table and the "Invoice" table.
+
+4. **Many-to-Many Relationship**:
+- **Definition**: In a many-to-many relationship, multiple rows in one table can be associated with multiple rows in another. These relationships are typically implemented using a junction table.
+- **Example**: Students and courses in a school database can have a many-to-many relationship, where students can enroll in multiple classes, and each course can have multiple students.
+
