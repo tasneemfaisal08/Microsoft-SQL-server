@@ -6,6 +6,22 @@ This repository is a comprehensive resource for learning and practicing Microsof
 - SQL, or Structured Query Language, is like learning the language of data , It helps you store, manage, and retrieve your data efficiently.
 - Microsoft SQL Server, a powerful and widely used relational database management system that powers countless applications globally.
 
+# Database (DB)
+A structured collection of related data stored in an organized way so it can be easily accessed, managed, and updated.
+
+# Database Management System (DBMS)
+A software system that provides tools to define, create, manage, and control access to a database.
+
+# Database System
+
+A complete environment that includes:
+
+- The database itself (the data).
+
+- The DBMS software that manages the data.
+
+- Applications and tools built on top of the DBMS.
+
 # why is SQL so important in transforming and manipulating data? 
 Whether you're analyzing business performance, managing customer relations, or exploring scientific data, SQL is the tool that brings clarity and understanding ,improve efficiency, support decision-making, and enhance productivity.
 
